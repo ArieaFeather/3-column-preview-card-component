@@ -1,0 +1,13 @@
+.container{
+    @media(max-width: $bp-desktop){
+        display: flex;
+        margin: 0 15%;
+    }
+    @media(max-width: $bp-tablet){
+        margin: 0 5%;
+        
+    }
+    @media(max-width: $bp-mobile){
+        flex-direction: column;
+    }
+}

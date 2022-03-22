@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+/*
+    Desktop: 1440px
+    Tablet: 770;
+    Mobile: 375px
+    Mobile-Sm: 325px
+*/
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+/*
+    Desktop: 1440px
+    Tablet: 770;
+    Mobile: 375px
+    Mobile-Sm: 325px
+*/
+.container-card {
+  display: table;
+  border-radius: 5px;
+  padding: 40px 45px;
+}
+@media (max-width: 770px) {
+  .container-card {
+    padding: 40px 25px;
+  }
+}
+.container-card--1 {
+  background-color: #e38826;
+}
+.container-card--2 {
+  background-color: #006970;
+}
+.container-card--3 {
+  background-color: #004241;
+}
+.container-card--header {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.container-card--body {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 10rem;
+}
+.container-card--btn {
+  position: relative;
+  mix-blend-mode: screen;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+}
+.container-card--btn::before {
+  content: "";
+  position: absolute;
+  mix-blend-mode: color-burn;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #f2f2f2;
+  border-radius: 30px;
+}
+
+.attribution {
+  text-align: center;
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  background-color: #006970;
+}
+@media (max-width: 1440px) {
+  .attribution {
+    margin: 0 15%;
+  }
+}
+@media (max-width: 770px) {
+  .attribution {
+    margin: 0 5%;
+  }
+}
+
+.coder {
+  color: #e38826;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    display: flex;
+    margin: 0 15%;
+  }
+}
+@media (max-width: 770px) {
+  .container {
+    margin: 0 5%;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.comp.css.map */
