@@ -1,13 +1,23 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const ejs = require('ejs');
+require("dotenv").config();
+const express = require("express");
+const bodyParser = require("body-parser");
+const ejs = require("ejs");
 const app = express();
 
 app.use(express.static("public"));
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.set("view engine", 'ejs');
+app.set("view engine", "ejs");
 
-app.get("/", (req, res) => {res.render('home')});
+app.get("/", (req, res) => {
+    res.render("home");
+});
 
-app.listen(3000, () => console.log("Press X to Start"));
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 3000;
+}
+
+app.listen(port, () => {
+    console.log("Quest Started!");
+});

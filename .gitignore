@@ -10,3 +10,4 @@ style-guide.md
 
 .DS_Store
 .prettierignore
+.env
