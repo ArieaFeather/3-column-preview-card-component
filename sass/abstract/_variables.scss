@@ -1,5 +1,5 @@
 //GOOGLE FONT IMPORTS
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 
 // DEVICE WIDTHS and BREAKPOINNTS
 /*
@@ -10,8 +10,8 @@
 */
 $bp-desktop: 1440px;
 $bp-tablet: 770px;
-$bp-mobile: 375px;
-$bp-mobile-sm: 325px;
+$bp-mobile: 500px;
+$bp-mobile-sm: 375px;
 
 // COLORS
 $primary-color-1: #e38826; // Bright Orange
@@ -22,7 +22,7 @@ $neutral-color-2: #f2f2f2; //Very Light Gray
 
 // FONTS
 $body-font-size: 15px;
-$primary-font: 'Lexend Deca', sans-serif;
+$primary-font: "Lexend Deca", sans-serif;
 $primary-font-weight: 400;
-$secondary-font: 'Big Shoulders Display', cursive;
+$secondary-font: "Big Shoulders Display", cursive;
 $secondary-font-weight: 700;
