@@ -1,13 +1,13 @@
-.container{
-    @media(max-width: $bp-desktop){
-        display: flex;
+.container {
+    @media (max-width: $bp-desktop) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         margin: 0 15%;
     }
-    @media(max-width: $bp-tablet){
-        margin: 0 5%;
-        
+    @media (max-width: $bp-tablet) {
+        margin: 0 2%;
     }
-    @media(max-width: $bp-mobile){
-        flex-direction: column;
+    @media (max-width: $bp-mobile) {
+        grid-template-columns: 1fr;
     }
 }
