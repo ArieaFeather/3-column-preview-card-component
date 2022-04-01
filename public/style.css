@@ -18,7 +18,7 @@
   padding: 40px 45px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   .container-card {
     padding: 40px 25px;
   }
@@ -83,7 +83,7 @@
     margin: 0 15%;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   .attribution {
     margin: 0 5%;
   }
@@ -98,7 +98,7 @@
     margin: 0 15%;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   .container {
     margin: 0 5%;
   }
